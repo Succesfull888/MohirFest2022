@@ -1,0 +1,117 @@
+
+.heading ul{
+    display: flex;
+    flex-direction: rows;
+}
+
+.heading ul li{
+    list-style: none;
+}
+
+.heading ul li a{
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: bolder;
+    padding: 15px;
+    font-size: 2vw;
+}
+
+.heading ul li a:hover{
+    color: brown;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.home-page{
+    display:block;
+    position: relative;
+    width: auto;
+    height: 50vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    box-shadow: 5px 5px 6px gray;
+}
+
+.home-page h1{
+    padding-top: 20%;
+    font-size: 8vw;
+    font-weight: bold;
+}
+
+/* background image on text*/
+      
+  .text{
+    margin: 0 auto;
+    font-family: Montserrat, sans-serif;
+    font-size: 300px;
+    background-image: url("../images/textbg.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-clip: text; 
+     background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.film-img-title{
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 5px 5px 6px gray;
+    font-size: 1.8vw;
+}
+
+#jobs{
+    width: 25vw;
+    height: 30vw;
+    padding: 3vw;
+}
+
+#jobs:hover{
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+}
+
+.performers{
+    margin: 5vw;
+    width: auto;
+    height: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: auto;
+    height: 20vw;
+    margin: 5px;
+    padding: 5vw;
+    box-shadow: 2px 2px 3px 3px gray;
+}
+
+.actors{
+    width: 16vw;
+    height: 15vw;
+    border-radius: 45%;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+#rating{
+    width: auto;
+    padding: 5vw;
+    height: 65vh;
+    margin-top: 25vw;
+    box-shadow: 5px 5px 6px gray;
+}
+
+.rating_bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.star{
+    padding-left: 5vw;
+}
+
+.checked {
+    color: orange;
+  }
